@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: rgb(170, 120, 55);
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.header__right .header__apps{
+    margin-right: 10px;
+}
+
+.header__right .material-icons:hover{
+    color: rgb(170, 120, 55);
+}
+
+
+.mainBody{
+    flex: 1;
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+}
+
+.mainBody img{
+    object-fit: contain;
+    height: 100px;
+}
+
+.search__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 99px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+    
+}
+
+.search__input input{
+    flex: 1;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.search__input .material-icons{
+    color: grey;
+}
+
+.search__button{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.search__button button{
+    margin: 5px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+}
